@@ -1,0 +1,346 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header-bg.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 200px 0px 170px 0px;
+}
+
+
+/* 
+    Navbar
+*/
+
+#mainNav {
+    background-color: #212529;
+}
+
+.navbar {
+    padding: 15px 0px;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 23px;
+    color: #fada79;
+    text-transform: uppercase;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 170px;
+}
+
+.nav-item {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+/* 
+    Jumbotron
+*/
+
+.jumbotron {
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+.display-4 {
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.lead {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.jumbotron button {
+    color: black;
+    font-weight: 500;
+}
+
+
+/* 
+    Services
+*/
+
+#services {
+    padding: 50px;
+}
+
+.services-title h1 {
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.services-title p {
+    color: grey;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.service-card i {
+    color: white;
+    background-color: #ffc800 !important;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    height: 120px;
+    width: 120px;
+    padding-top: 27px;
+}
+
+.service-card h3 {
+    font-weight: 500;
+}
+
+.service-card p {
+    color: grey;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+/* 
+    Portfolio
+*/
+
+#portfolio {
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.portfolio-title h1 {
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.portfolio-title p {
+    color: grey;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.portfolio-card {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.portfolio-card img {
+    transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
+}
+
+.portfolio-card img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.portfolio-img-details h3 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.portfolio-img-details p {
+    color: grey;
+    font-size: 19px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+/* 
+    ABOUT
+*/
+
+#about {
+    padding: 50px;
+}
+
+.about-title h1 {
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.about-title p {
+    color: grey;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.about-img img {
+    height: 80vh;
+    width: 100%;
+}
+
+.about h2 {
+    font-size: 27px;
+}
+
+.about-p1 {
+    font-size: 17px;
+    color: grey;
+    text-align: justify;
+}
+
+.about i {
+    float: left;
+    font-size: 27px;
+    color: #1977cc;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 2px solid #8dc2f1;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.about h4 {
+    font-size: 20px;
+}
+
+.about-p2 {
+    font-size: 15px;
+    color: grey;
+    text-align: justify;
+    padding-left: 90px;
+}
+
+
+/* 
+    TEAM
+*/
+
+#team {
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.team-title h1 {
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.team-title p {
+    color: grey;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.team-img img {
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+    width: 225px;
+    height: 221px;
+    border: 7px solid #e0e0ea;
+    margin-bottom: 20px;
+}
+
+.team-detail h3 {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.team-detail p {
+    color: #6c757d !important;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.team-icons i {
+    margin: 0px 6px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: 38px;
+    padding-top: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.team-para {
+    color: #6c757d !important;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 180px;
+    height: 180px;
+}
+
+
+/* 
+    CONTACT
+*/
+
+#contact {
+    padding: 50px;
+    background-color: #000000;
+    background-image: url("../img/map-image.png");
+}
+
+.contact-title h1 {
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.contact-title p {
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+    FOOTER
+*/
+
+.footer-text {
+    color: black;
+}
